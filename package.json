@@ -1,0 +1,14 @@
+{
+  "name": "isaquesr-profile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GitHub profile README for isaquesr, with tooling to lint and preview it locally",
+  "scripts": {
+    "lint": "markdownlint README.md",
+    "preview": "node scripts/render.js"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.41.0",
+    "marked": "^12.0.2"
+  }
+}
